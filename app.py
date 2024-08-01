@@ -1,6 +1,5 @@
 from flask import Flask, render_template
 from asgiref.wsgi import WsgiToAsgi
-import pandas as pd
 import os
 
 TITULO = os.getenv("TITULO")
